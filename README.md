@@ -107,7 +107,7 @@ If you find the code and datasets useful in your research, please cite:
 - Cuda & Cudnn (We test with Cuda = 9.0 and Cudnn = 7.0)
 - PyTorch (The customized depth-aware flow projection and other layers require ATen API in PyTorch = 1.0.0)
 - GCC (Compiling PyTorch 1.0.0 extension files (.c/.cu) requires gcc = 4.9.1 and nvcc = 9.0 compilers)
-- NVIDIA GPU (We use Titan X (Pascal) with compute = 6.1, but we support compute_50/52/60/61/75 devices, should you have devices with higher compute capability, please revise [this](https://github.com/baowenbo/DAIN/blob/master/my_package/compiler_args.py))
+- NVIDIA GPU (We use Titan X (Pascal) with compute = 6.1, but we support compute_50/52/60/61/75 devices, should you have devices with higher compute capability, please revise [this](https://github.com/AlphaGit/DAIN/blob/master/my_package/compiler_args.py))
 
 ### Installation
 Download repository:
@@ -232,7 +232,7 @@ Original Notebook File by btahir can be found [here](https://github.com/baowenbo
 
 To use the Colab, follow these steps:
 
-- Open this link: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/baowenbo/DAIN/blob/master/Colab_DAIN.ipynb)
+- Open this link: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AlphaGit/DAIN/blob/master/Colab_DAIN.ipynb)
 - Start running the cells one by one, following the instructions.
 
 Colab file authors: [Styler00Dollar](https://github.com/styler00dollar) and [Alpha](https://github.com/AlphaGit), and more.
@@ -241,4 +241,4 @@ Colab file authors: [Styler00Dollar](https://github.com/styler00dollar) and [Alp
 [Wenbo Bao](mailto:bwb0813@gmail.com); [Wei-Sheng (Jason) Lai](mailto:phoenix104104@gmail.com)
 
 ### License
-See [MIT License](https://github.com/baowenbo/DAIN/blob/master/LICENSE)
+See [MIT License](https://github.com/AlphaGit/DAIN/blob/master/LICENSE)
