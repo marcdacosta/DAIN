@@ -60,7 +60,7 @@ final_frame = args.end_frame
 
 torch.set_grad_enabled(False)
 
-font_url = 'https://github.com/googlefonts/roboto/blob/master/src/hinted/Roboto-Bold.ttf?raw=true'
+font_url = 'https://github.com/googlefonts/roboto/blob/master/src/hinted/Roboto-Bold.ttf'
 big_font = ImageFont.truetype(urlopen(font_url), size=24)
 smol_font = ImageFont.truetype(urlopen(font_url), size=14)
 
